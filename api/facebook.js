@@ -1,6 +1,6 @@
-const facebook = require('./go/facebook');
+import * as facebook from './go/facebook.js';
 
-module.exports = async (req, res) => {
+export default async (req, res) {
     const { url } = req.query;
     if (!url) {
         return res.end(
