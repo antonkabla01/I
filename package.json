@@ -1,0 +1,1 @@
+{"name":"AntonThomzz","version":"0.1","main":"index.js","scripts":{"start":"node /api/facebook.js"},"type":"module","dependencies":{"gp4":"latest"}}
