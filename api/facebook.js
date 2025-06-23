@@ -34,7 +34,7 @@ export default async (req, res) => {
             JSON.stringify(
                 {
                     status: "success",
-                    github: 'github.com/AntonThomzz,
+                    github: "github.com/AntonThomzz",
                     body: result
                 }
             )
